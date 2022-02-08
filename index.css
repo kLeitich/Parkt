@@ -1,0 +1,68 @@
+
+header{
+    background-color: #00FF80;
+    padding: 30px;
+}
+header button{
+    float: right;
+    margin-top: -10px;
+    padding: px;
+}
+footer{
+    background-color: #00FF80;
+    padding: 10px;
+}
+.logos{
+    display: inline;
+}
+.quit{
+    float: right;
+    padding: 20px;
+}
+.logos{
+    list-style: none;
+}
+.info{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+.info button{
+    padding: 15px;
+    border-radius: 9px;
+    border: none;
+}
+.info button:hover{
+    color: red;
+}
+
+footer{
+    padding: 40px;
+    margin-top: 50px;
+}
+footer p{
+    float: right;
+    margin-top: -7px;
+    font-weight: bold;
+}
+.members{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+.feedback{
+    padding: 10px;
+    border: none;
+    border-radius: 9px;
+    margin: 30px;
+}
+.feedback:hover{
+    color: red;
+}
+.feeds{
+    text-align: center;
+}
+.img{
+    display: flex;
+    justify-content: space-around;
+}
