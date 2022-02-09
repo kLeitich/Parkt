@@ -18,7 +18,7 @@ a{
     font-weight: bold;
 }
 a:hover{
-    color: yellow;
+    color: black;
 }
     
 footer{
@@ -37,8 +37,6 @@ footer{
 }
 .info{
     text-align: center;
-    font-size: 30px;
-    font-weight: bold;
 }
 .info button{
     padding: 15px;
@@ -46,6 +44,7 @@ footer{
     border: none;
     background-color: #00FF80;
     cursor: wait;
+    font-weight: bold;
 }
 .info button:hover{
     color: red;
@@ -59,20 +58,19 @@ footer{
 
 .members{
     display: flex;
-    justify-content: space-around;
-    text-align: center;
+    justify-content: space-evenly;
 }
-.membersp{
-    border-radius: 50%;
-    width: 100%;
-}
+
 .feedback{
     padding: 15px;
     border: none;
     border-radius: 9px;
-    margin: 30px;
+    margin: 40px;
+    margin-left: 46%;
     background-color: #00FF80;
     cursor: pointer;
+    text-align: center;
+    font-weight: bold;
 }
 .feedback:hover{
     color: red;
@@ -83,4 +81,24 @@ footer{
 .img{
     display: flex;
     justify-content: space-around;
+    cursor: pointer;
+}
+.members>.memberone{
+    width: 50%;
+    box-shadow: 10px 10px 8px #888888;
+    margin-left: 10px;
+    padding-top: 10px;
+}
+.members>.membertwo{
+    width: 50%;
+    box-shadow: 10px 10px 10px #888888;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-top: 10px;
+}
+.members>.memberthree{
+    width: 50%;
+    box-shadow: 10px 10px 8px #888888;
+    margin-right: 10px;
+    padding-top: 10px;
 }
