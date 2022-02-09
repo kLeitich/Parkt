@@ -38,7 +38,7 @@ footer{
 .info{
     text-align: center;
 }
-.info button{
+button{
     padding: 15px;
     border-radius: 9px;
     border: none;
@@ -46,7 +46,7 @@ footer{
     cursor: wait;
     font-weight: bold;
 }
-.info button:hover{
+button:hover{
     color: red;
 }
 
@@ -101,4 +101,13 @@ footer{
     box-shadow: 10px 10px 8px #888888;
     margin-right: 10px;
     padding-top: 10px;
+}
+.reserve{
+    box-shadow: #00FF80 10px 10px 6px;
+}
+.reserve button{
+    margin-left: 50%;
+}
+.enquiries{
+    padding-top: 50px;
 }
