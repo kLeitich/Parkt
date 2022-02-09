@@ -3,11 +3,20 @@ header{
     background-color: #00FF80;
     padding: 30px;
 }
-header button{
-    float: right;
-    margin-top: -10px;
-    padding: px;
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
+.navigation span{
+    padding: 15px;
+    text-decoration: none;
+}
+
+a{
+    text-decoration: none;
+}
+    
 footer{
     background-color: #00FF80;
     padding: 10px;
