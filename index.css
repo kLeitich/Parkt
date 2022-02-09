@@ -50,6 +50,9 @@ footer p{
     justify-content: space-around;
     text-align: center;
 }
+.membersp{
+    border-radius: 50%;
+}
 .feedback{
     padding: 10px;
     border: none;
